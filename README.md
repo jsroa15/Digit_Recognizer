@@ -1,5 +1,7 @@
 # Digit Recognizer
 
+## Note: Repository under construction, not final version for all files
+
 # Project Overview
 
 End-to-End Project using Deep Learning to predict hand-writing numbers from 0 to 9.
