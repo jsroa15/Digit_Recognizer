@@ -62,6 +62,11 @@ To test the model in production with real handwriting, it's necesary to write th
 
 To deploy the Web App I used HTML, CSS and JavaScript for the Front-End and Flask for the Front-End.
 
+<img src= "https://github.com/jsroa15/Digit_Recognizer/blob/main/pictures/Screenshot%202021-02-27%20221049.jpg" width="500"/>
+
+
+
+
 
 
 
