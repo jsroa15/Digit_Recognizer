@@ -8,8 +8,14 @@ End-to-End Project using Deep Learning to predict hand-writing numbers from 0 to
 
 # Code and Resources used
 
-*  Python Version: 3.7
-*  Packages: Numpy, Pandas, TensorFlow, Keras, Matplotlib, Seaborn.
+*  Python Version: 3.85
+*  Packages: Numpy, Pandas, TensorFlow, Keras, Matplotlib, Seaborn, Pillow, base64, Flask (Back-End)
+*  HTML, CSS, JavaScript 
+
+# Credits
+* Flask API: https://github.com/SouravJohar/doodle-classifier
+* Front-End: https://www.youtube.com/watch?v=D-h8L5hgW-w&t=4994s
+* Build Canvas: https://www.youtube.com/watch?v=wQsWdizztIw&t=1085s
 
 # Exploratory Data Analysis
 
@@ -39,7 +45,7 @@ These are the results after training the Neural Network:
 
 | Loss Function | Val Loss Function | Accuracy | Val Accuracy |
 |---------------|-------------------|----------|--------------|
-| 0.19          | 1.19              | 98%      | 96%          |
+| 0.03          | 1.07              | 99%      | 98%          |
 
 # Test with own handwriting
 
@@ -52,6 +58,12 @@ To test the model in production with real handwriting, it's necesary to write th
 **Picture after preprocessing**
 
 <img src= "https://github.com/jsroa15/Digit_Recognizer/blob/main/pictures/sample%20pro.jpg" width="180"/>
+
+# Deployment
+
+To deploy the Web App I used HTML, CSS and JavaScript for the Front-End and Flask for the Front-End.
+
+
 
 
 
