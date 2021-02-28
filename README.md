@@ -1,7 +1,5 @@
 # Digit Recognizer
 
-## Note: Repository under construction, not final version for all files
-
 # Project Overview
 
 End-to-End Project using Deep Learning to predict hand-writing numbers from 0 to 9.
@@ -16,6 +14,7 @@ End-to-End Project using Deep Learning to predict hand-writing numbers from 0 to
 * Flask API: https://github.com/SouravJohar/doodle-classifier
 * Front-End: https://www.youtube.com/watch?v=D-h8L5hgW-w&t=4994s
 * Build Canvas: https://www.youtube.com/watch?v=wQsWdizztIw&t=1085s
+* Google Cloud Deployment: https://www.youtube.com/watch?v=xcODUk0o6tU
 
 # Exploratory Data Analysis
 
