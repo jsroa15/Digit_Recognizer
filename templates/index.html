@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Recognizer App-JSRB</title>
+    <link rel="stylesheet" href="static/css/main.css">
+
+</head>
+<body>
+    <div class='navbar'>
+        <div class="container">
+            <a class='logo' href="#">Digit<span>Recognizer</span></a>
+            <a class='author'href="#">Author: Juan Sebastian Roa</a>
+            <nav>
+                <ul style="list-style: none;">
+                    <li><a href="https://github.com/jsroa15">GitHub Profile</a></li>
+                    <li><a href="http://www.linkedin.com/in/jsrb">LinkedIn Profile</a></li>
+                
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+    
+    <section class='draw'>
+         <div class="container">
+             <div class="left-col">
+                 <h1 class="drawing">Draw your number (from 0 to 9)</h1>
+
+                 
+                 <div class="canvas-1">
+
+                    <canvas id="canvas" style="border:1px solid #000000;"></canvas>
+
+                    <script src="static/js/canvas.js"></script>
+                
+
+                 <div class="left-under">
+
+                    <form method='POST' onsubmit="return prepare()">
+                        <input type="hidden" id="payload" name="payload" value="x">
+                        <button type="submit" class="btn btn-success" style="margin-left:7%" id="predict">Predict</button>
+                        <button type="button" class="btn btn-info" id="clearButton">Clear</button>
+                        <br>
+                        <br>
+
+                    </form>
+
+                    <script type="text/javascript">
+                        function prepare() {
+                          var canvasObj = document.getElementById("canvas");
+                          var img = canvasObj.toDataURL();
+                          document.getElementById("payload").value = img;
+                          return true;
+                        }
+                      </script>
+
+                
+                    
+
+                      <h1>Prediction: {{pred_text}}</h1>
+                    
+
+
+                        
+
+
+
+               
+
+
+
+                 </div>
+
+             </div>
+
+         </div>
+
+
+    </section>
+
+
+</body>
+</html>
