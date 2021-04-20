@@ -30,7 +30,7 @@ This is a visualization of some samples in the dataset:
 
 # Modeling
 
-I used an Artificial Neural Network to predict the hanwriting. The architecture of the Neural Network is:
+I used an Artificial Neural Network to predict the handwriting. The architecture of the Neural Network is:
 
 *  784 Nodes in Input layer
 *  400 Nodes in Hidden layer
